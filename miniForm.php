@@ -4,7 +4,7 @@ if(isset($_POST['submit'])) {
 	.'Email: '.$_POST['email']."\n"
 	.'Beschreibung: '.$_POST['besch']."\n";
 	
-	mail('info@getcare.ch', 'Mail von GETcare CH', $emailbody); // info@get-care.de
+	mail('info@ShweizweBetreuung.ch', 'Mail von ShweizweBetreuung CH', $emailbody); // info@Schweizer-Betreuung.de
 	header("Location:./kontakt_danke.html");
 }
 

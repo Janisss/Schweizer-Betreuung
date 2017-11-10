@@ -12,8 +12,8 @@ if(isset($_POST['submit'])) {
 	.'Gewünschte Deutschkenntnisse: '.$_POST['deutsch']."\n"
 	.'Sonstige Bemerkungen: '.$_POST['sonstige']."\n";
 	
-	mail('info@get-care.de', 'Mail von GETcare DE', $emailbody); //info@get-care.de
-	header("Location:http://get-care.de/preiseanfrage_danke.html");
+	mail('info@Schweizer-Betreuung.de', 'Mail von ShweizweBetreuung DE', $emailbody); //info@Schweizer-Betreuung.de
+	header("Location:http://Schweizer-Betreuung.de/preiseanfrage_danke.html");
 
 }
 ?>

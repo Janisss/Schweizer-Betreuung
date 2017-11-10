@@ -806,7 +806,7 @@ pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;backgrou
 .col-lg-offset-1{margin-left:8.33333333%;}
 .col-lg-offset-0{margin-left:0;}
 }
-table{background-color:transparent;border-color:#4F91CC;}
+table{background-color:transparent;border-color:#67A1D6;}
 caption{padding-top:8px;padding-bottom:8px;color:#777;text-align:left;}
 th{text-align:left;}
 .table{width:100%;max-width:100%;margin-bottom:20px;}
@@ -815,8 +815,8 @@ th{text-align:left;}
 .table > tfoot > tr > th,
 .table > thead > tr > td,
 .table > tbody > tr > td,
-.table > tfoot > tr > td{padding:8px;line-height:1.42857143;vertical-align:top;border-top:1px solid #4F91CC;}
-.table > thead > tr > th{vertical-align:bottom;border-bottom:2px solid #4F91CC;}
+.table > tfoot > tr > td{padding:8px;line-height:1.42857143;vertical-align:top;border-top:1px solid #67A1D6;}
+.table > thead > tr > th{vertical-align:bottom;border-bottom:2px solid #67A1D6;}
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
 .table > thead:first-child > tr:first-child > th,
@@ -2194,8 +2194,8 @@ button.list-group-item-danger.active:focus{color:#fff;background-color:#a94442;b
 .panel-group .panel-footer{border-top:0;}
 .panel-group .panel-footer + .panel-collapse .panel-body{border-bottom:1px solid #ddd;}
 .panel-default{border-color:#ddd;}
-.panel-default > .panel-heading{color:white;background-color:#4F91CC;border:none;}
-.panel-default > .panel-heading + .panel-collapse > .panel-body{border-top-color:#8C131D;}
+.panel-default > .panel-heading{color:white;background-color:#67A1D6;border:none;}
+.panel-default > .panel-heading + .panel-collapse > .panel-body{border-top-color:#A22123;}
 .panel-default > .panel-heading .badge{color:#f5f5f5;background-color:#333;}
 .panel-default > .panel-footer + .panel-collapse > .panel-body{border-bottom-color:#ddd;}
 .panel-primary{border-color:#337ab7;}

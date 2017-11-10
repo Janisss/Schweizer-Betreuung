@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['submit'])) {
 	$emailbody = 
-	 '<center><img src="http://get-care.de/GetCare.svg" width="300"></center>'."<hr>"
+	 '<center><img src="http://Schweizer-Betreuung.de/.svg" width="300"></center>'."<hr>"
 	.'<span style="color:Brown">Anrede: </span>'.$_POST['anrede']."<hr>"
 	.'<span style="color:Brown">Name: </span>'.$_POST['name']."<hr>"
 	.'<span style="color:Brown">Vorname: </span>'.$_POST['vorname']."<hr>"
@@ -13,7 +13,7 @@ if(isset($_POST['submit'])) {
 	.'<span style="color:Brown">Gewünschte Deutschkentnisse: </span>'.$_POST['gewunschte']."<hr>"
 	.'<span style="color:Brown">Sonstige Bemerkungen: </span>'.$_POST['sonstige']."<hr>"."<br>";
 		
-	mail('info@getcare.ch', '-> GetCare CH FORM', $emailbody ,'Content-Type: text/html; charset=UTF-8');
+	mail('info@ShweizweBetreuung.ch', '-> ShweizweBetreuung CH FORM', $emailbody ,'Content-Type: text/html; charset=UTF-8');
 	header("Location:./preiseanfrage_danke.html");
 }
 ?>
