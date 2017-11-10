@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@font-face {font-family:Calibri;src: url(http://get-care.de/new/fonts/Calibri.ttf);}
+@font-face {font-family:Calibri;src: url(http://.de/new/fonts/Calibri.ttf);}
 body{font-family:Calibri, sans-serif;}
 b{background:#67A1D6;color:white;text-align:center;font-weight:300;padding:7px 25px 5px 15px;margin-top:5px;margin-bottom:15px;display:inline-block; min-width:180px;border-radius:3px;}
 form b{width:100%;}
@@ -32,7 +32,7 @@ ul.wiss, ul.uber{height:25px; font-size: 14px;margin-left: -27px;line-height: 1.
 .uber a, .wiss a{color:#A22123;}
 .content{background-color:rgba(255,255,255,0.7);}
 footer{padding:40px;text-align:center;font-size:16px;}
-.herz{width:100%;max-width:600px;position:relative;left:-200px;top:0px;}
+.herz{width:100%;max-width:600px;position:relative;left:-200px;top:15px;}
 li.resp-menu{display:none;}
 .deco{width:100%;max-width: 300px;display:block;margin-left:auto;margin-right:auto;}
 article ul:before{content:"» ";margin-left:-10px;color:#A22123;}
